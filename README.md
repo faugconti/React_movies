@@ -1,2 +1,2 @@
 # React_movies
-A showcase for an free movies api
+A showcase for the Open Movies Database API made with ReactJS.
