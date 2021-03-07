@@ -40,7 +40,7 @@ const MovieInfo = (props) => {
                     console.log('ENDED Sending HTTP request');
                 })
         }
-    }, []);
+    }, [props.match.params.id,props.location.state]);
 
     useLayoutEffect(() => {
         if (typeof (props.location.state) === "undefined") {
