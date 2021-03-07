@@ -1,0 +1,46 @@
+.items{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+
+.Open{
+    transform: translateX(0);
+}
+.Close{
+    transform: translateX(-100%)
+}
+
+.Logo{
+    background-image: url('../../../assets/logo512.png');
+    width:50px;
+    height:50px;
+    position:absolute;
+    bottom:10%;
+    left:calc(40%);
+    background-size: cover;
+}
+
+@media(min-width:769px){
+    .SideDrawer{
+        display:none;
+    }
+}
+
+.SideDrawer{
+    position: fixed;
+    width: 280px;
+    max-width: 70%;
+    height: 100%;
+    left:0;
+    top:0;
+    z-index: 200;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(33,2,116,1) 100%);
+    padding:32px 16px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+    /* box-shadow: 10px 0 5px -2px rgba(33,2,116,1); */
+}

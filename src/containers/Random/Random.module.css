@@ -1,0 +1,52 @@
+.Random{
+    min-height:calc(100vh - 3.5rem);
+    color:white;
+    margin:0;
+}
+.Title{
+    font-size: 2rem;
+    text-align: center;
+    height: 100%;
+    padding-top:1rem;
+}
+.movieContainer{
+    margin:0.75rem 0;
+}
+
+.MoviesContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:2rem;
+}
+
+.center{
+    margin:3rem auto;
+    text-align: center;
+
+}
+@media(min-width:768px){
+    .MoviesContainer{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .movieContainer{
+        margin:2rem 1rem;
+    }
+}
+
+@media(min-width:4096px){
+    .Title{
+        font-size: 3rem;
+    }
+    .MoviesContainer{
+        margin-top:7rem;
+    }
+    .movieContainer{
+        margin:3rem 1rem;
+    }
+}
+

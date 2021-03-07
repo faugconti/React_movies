@@ -1,0 +1,110 @@
+.Container{
+    height:100%;
+    /* height:auto; */
+    color:white;
+    /* position: relative; */
+    z-index:50;
+    /* width: 100%; */
+    /* display: none; */
+    /* width: 90%; */
+}
+.Title{
+    font-size: 2rem;
+    text-align: center;
+    margin-top:1rem;
+}
+
+.Description{
+    margin:2rem;
+    font-size: 1.25rem;
+    text-align: justify;
+    
+}
+.cursor{
+    cursor:pointer;
+    z-index:50;
+}
+.cursor:hover{
+    text-underline-position: above;
+}
+
+.space{
+    /* margin-top:4rem; */
+    /* display: none; */
+}
+
+.image1{
+    /* border:1px solid white; */
+    background-image: url('../../assets/faces.png');
+    position:absolute;
+    /* width: 50%; */
+    height:200px;
+    width:200px;
+    /* max-height: 100px;
+    max-width: 200px; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.075;
+    /* top:60%; */
+    /* top:100%; */
+    /* left:10%;  */
+    right:5%;
+    bottom:3%;
+    z-index: -1; 
+    /* display:none;    */
+}
+.image2{
+    background-image: url('../../assets/film.svg');
+    position:absolute;
+    width: 300px;
+    height:200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 1;
+    top:20%;
+    left:0%; 
+    z-index: -1;  
+    transform: rotateZ(50deg);  
+    /* display:none; */
+}
+@media(min-width:700px){
+    .Container{
+        box-sizing: border-box;
+        width: 50%;
+        margin:5% auto;
+        border:1px solid white;
+        background: rgba(0,0,0,1);
+        position: initial;
+    }
+
+    .Title{
+        margin-bottom: 5rem;
+    }
+
+    .cursor:hover{
+        color:yellow;
+    }
+    
+    .image1{
+        position: absolute;
+        width:25%;
+        min-height:35%;
+        background-size: contain;
+        /* border:1px solid white;  */
+        top:auto;
+        left:auto;
+        right:5%;
+        bottom:5%;
+        /* left:55vw; */
+        /* display: none; */
+
+    }
+    .image2{
+        left:10%;
+        width:300px;
+        height:400px;
+    }
+    
+}

@@ -1,0 +1,24 @@
+.NavigationItem{
+    margin: 1rem 0;
+    display:block;
+    color:white;
+    font-size: 1.25rem;    
+}
+.NavigationItem a{
+    text-decoration: none;
+    color:white;
+}
+
+.NavigationItem a:hover{
+    color:cyan;
+}
+.NavigationItem a.active{
+    
+    color: #40A4C8;
+}
+
+@media(min-width:769px){
+    .NavigationItem{
+        margin:0 1rem;
+    }
+}

@@ -1,0 +1,55 @@
+
+.Button {
+    background-color: transparent;
+    border: none;
+    /* color: white; */
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding:0;
+    /* padding: 10px;
+    margin: 10px; */
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CYAN{
+    background-color: cyan;
+    border:3px solid darkslateblue
+}
+
+.Button:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.Button:disabled{
+    color:#ccc;
+    cursor:not-allowed;
+    border:1px solid gray;
+    background-color: gray;
+}
+
+.Button:hover{
+    /* background: cyan; 
+    border: 1px solid white; */
+}
+
+.Button:disabled:hover{
+    background: gray;
+    border:none;
+}
+
+.Success {
+    color: #5C9210;
+}
+
+.Danger {
+    color: #944317;
+}
+
+.SMALL{
+    width:10rem;
+}
