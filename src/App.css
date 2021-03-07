@@ -27,6 +27,78 @@
 .App-link {
   color: #61dafb;
 }
+/* /////////////// */
+
+/* .boton{
+  position: relative;
+  width: 1.3rem;
+  height: 1.31rem;
+  z-index: 10;
+  border-radius: 20%;
+  font-weight: bold;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  top:1rem;
+  left:1rem;
+  opacity: 60%;
+  z-index: 1000;
+} */
+
+.boton{
+  position: relative;
+  width: 1.3rem;
+  height: 1.31rem;
+  z-index: 10;
+  border-radius: 20%;
+  font-weight: bold;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  top:1rem;
+  left:1rem;
+  /* opacity: 60%; */
+  z-index: 1000;
+}
+
+
+.boton:hover{
+  /* opacity: 60%; */
+  /* width: 1.3rem;
+  height: 1.31rem; */
+ 
+}
+
+
+.ADD{
+  /* position: absolute; */
+  /* width: 1.3rem;
+  height: 1.31rem; */
+  background-color: lime;  
+  color:rgb(0, 99, 5);;
+  border:2px solid rgb(0, 99, 5);
+  z-index: 300;
+
+}
+
+.ADD:hover{
+  width:1.5rem;
+  height:1.5rem;
+}
+
+.REMOVE{
+  
+  background-color: red;
+  color:rgb(255, 255, 255);
+  border:2px solid darkred;
+  z-index: 300;
+
+}
+.REMOVE:hover{
+  width:1.5rem;
+  height:1.5rem;
+}
+/* ///////////////////// */
 
 @keyframes App-logo-spin {
   from {
