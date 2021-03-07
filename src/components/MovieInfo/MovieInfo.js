@@ -46,7 +46,7 @@ const MovieInfo = (props) => {
         if (typeof (props.location.state) === "undefined") {
             setLoading(true);
         }
-    }, []);
+    }, [props.location.state]);
 
     const setBackground = function (url) {
         return {
