@@ -30,7 +30,7 @@ const MovieInfo = (props) => {
             // console.log('to: ','http://www.omdbapi.com/?i='+id+'&plot=full&'+'apikey='+APIKey)
             fetch(`https://www.omdbapi.com/?i=${id}&plot=full&apikey=${APIKey}`)
                 .then(res => {
-                    // console.log(res)
+                    console.log(res)
                     return res.json()
                 })
                 .then(data => {
