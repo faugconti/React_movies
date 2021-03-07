@@ -28,7 +28,7 @@ const MovieInfo = (props) => {
             setLoading(true);
             console.log('Sending HTTP request');
             // console.log('to: ','http://www.omdbapi.com/?i='+id+'&plot=full&'+'apikey='+APIKey)
-            fetch(`http://www.omdbapi.com/?i=${id}&plot=full&apikey=${APIKey}`)
+            fetch(`https://www.omdbapi.com/?i=${id}&plot=full&apikey=${APIKey}`)
                 .then(res => {
                     // console.log(res)
                     return res.json()

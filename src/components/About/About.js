@@ -6,7 +6,7 @@ const about = (props) => {
 
     const goToOmdb = () => {
         // console.log(props);
-        window.location.replace('http://www.omdbapi.com/')
+        window.location.replace('https://www.omdbapi.com/')
     };
 
     return (
