@@ -31,7 +31,7 @@ class Random extends Component {
         console.log('fetching movies');
         for (let key of copyList) {
             // console.log(key)
-            const response = await fetch(`http://www.omdbapi.com/?t=${key}&plot=full&apikey=${APIKey}`);
+            const response = await fetch(`https://www.omdbapi.com/?t=${key}&plot=full&apikey=${APIKey}`);
             const data = await response.json();
             simpleArray.push(data);
             // console.log(key)

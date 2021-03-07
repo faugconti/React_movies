@@ -29,7 +29,7 @@ class Search extends Component {
         // console.log(this.props)
         // console.log(this.state);
         // console.log(APIKey)
-        let baseURL = 'http://www.omdbapi.com/?s='+this.state.inputName+'&page=1&';
+        let baseURL = 'https://www.omdbapi.com/?s='+this.state.inputName+'&page=1&';
         if(this.state.inputYear){
             baseURL = baseURL + `&y=${this.state.inputYear}`;
         }
